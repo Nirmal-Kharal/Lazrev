@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:;
+    
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    background-color: red;
+    display: flex;
+align-items: center;
+width: 100%;
+padding: 2vw 9vw;
+justify-content: space-between;
+}
+.nav-part2{
+    display: flex;
+ gap: 2vw;
+}
+.nav-part2 h4{
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    font-weight: 570;
+     
+}
+
+
+#page1{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page1 h1{
+    font-size:9.8vw;
+    line-height:140px;
+    font-weight: 800;
+
+}
+#page1 h1 svg{
+    height: 6.5vw;
+    width: 6.5vw;
+    background-color:#0DA34E;
+    border-radius: 50%;
+}
+#page1 p{
+    margin-top: 9vh;
+    text-align: center;
+    font-size:1.4vw;
+    font-weight: 500;
+}
+#page1-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#page1-button h4{
+    border: 1px solid white;
+    text-transform: lowercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight:500;
+    font-size: 1.3vw;
+    margin-top: 0.6vw;
+}
+#page1-button h4:nth-last-child(2){
+    border: none;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+#page2{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
