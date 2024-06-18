@@ -12,23 +12,38 @@ html , body{
 }
 nav{
     position: fixed;
-    background-color: red;
+    height: 12vh;
+    /* background-color: red; */
     display: flex;
 align-items: center;
 width: 100%;
-padding: 2vw 9vw;
+padding: 2vw 8vw;
 justify-content: space-between;
 }
 .nav-part2{
     display: flex;
- gap: 2vw;
+ gap: 3vw;
 }
 .nav-part2 h4{
     text-transform: uppercase;
-    font-size: 0.9vw;
+    font-size: 1vw;
     font-weight: 570;
      
 }
+nav:hover #nav-bottom{
+    height: 100%;
+    bottom: -100%;
+}
+#nav-bottom{
+    height: 0%;
+    width: 85%;
+    background-color:red;
+    position: absolute;
+    bottom: 0%;
+    border-bottom: 2px solid white;
+
+}
+
 
 
 #page1{
@@ -39,11 +54,14 @@ justify-content: space-between;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    
 }
-#page1 h1{
+#page1 h1{ 
     font-size:9.8vw;
     line-height:140px;
     font-weight: 800;
+    
 
 }
 #page1 h1 svg{
@@ -53,7 +71,7 @@ justify-content: space-between;
     border-radius: 50%;
 }
 #page1 p{
-    margin-top: 9vh;
+    margin-top: 19vh;
     text-align: center;
     font-size:1.4vw;
     font-weight: 500;
